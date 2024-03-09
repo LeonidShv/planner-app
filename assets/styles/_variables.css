@@ -11,4 +11,5 @@
   --light: rgba(255, 255, 255, 0.1);
   --error: rgba(250, 70, 85, 1);
   --nav-item: rgba(0, 0, 0, 0.1);
+  --modal-bg: rgba(0, 0, 0, 0.5);
 }

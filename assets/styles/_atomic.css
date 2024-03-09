@@ -155,6 +155,10 @@ button {
   border-bottom: 1px solid var(--error);
 }
 
+.input.error::placeholder {
+  color: var(--error);
+}
+
 .section {
   padding: 0 120px 120px;
 }

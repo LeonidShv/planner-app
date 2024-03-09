@@ -4,6 +4,7 @@
 @import './_header.css';
 @import './_plancy.css';
 @import './_features.css';
+@import './_modal.css';
 
 body {
   background: var(--black);
@@ -33,4 +34,8 @@ body {
   .footer__info {
     width: unset;
   }
+}
+
+.scroll-disabled {
+  overflow: hidden;
 }
