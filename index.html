@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="./scripts/sider.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -86,12 +95,37 @@
       </section>
 
       <section class="features section">
-        <h2 class="title-2 features__title">
+        <h2 class="title-2 features__title mb-32">
           Features you'll <span class="highlight">Love</span>
         </h2>
 
         <div class="features__slider">
-          <!--  -->
+          <div class="swiper">
+            <div class="swiper-wrapper text-base">
+              <div class="swiper-slide">
+                <img src="./assets/icons/people.svg" alt="people icon" class="swiper__img mb-24" />
+                <p class="swiper__text">Invite people to your events</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/icons/camera.svg" alt="camera icon" class="swiper__img mb-24" />
+                <p class="swiper__text">Video calls integration</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/icons/pin.svg" alt="pin icon" class="swiper__img mb-24" />
+                <p class="swiper__text">Use Apple Maps or Google Maps</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/icons/eye.svg" alt="eye icon" class="swiper__img mb-24" />
+                <p class="swiper__text">Hide calendars you don't need</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/icons/phone.svg" alt="phone icon" class="swiper__img mb-24" />
+                <p class="swiper__text">Test item for the slider</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
       </section>
 

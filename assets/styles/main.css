@@ -3,6 +3,7 @@
 @import './_atomic.css';
 @import './_header.css';
 @import './_plancy.css';
+@import './_features.css';
 
 body {
   background: var(--black);
