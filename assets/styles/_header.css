@@ -2,8 +2,8 @@
   height: 100vh;
 }
 
-.nav {
-/* TODO: check nav height */
+.header__nav {
+  padding-top: 8px;
 }
 
 .nav__list {
