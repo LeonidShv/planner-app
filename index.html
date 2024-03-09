@@ -7,8 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header d-flex direction-column">
-      <nav class="header__nav d-flex space-between align-items">
+    <header class="header section d-flex direction-column">
+      <nav class="header__nav d-flex space-between align-center">
         <a href="" class="logo nav__logo">
           <img src="assets/icons/logo.svg" alt="logo of Plancy company" />
         </a>
@@ -51,7 +51,7 @@
             <button class="button header__button">Contact us</button>
           </div>
         </div>
-        <div class="header__img-wrapper d-flex space-center">
+        <div class="header__img-wrapper d-flex space-center align-center">
           <img
             class="header__img"
             src="./assets/images/main.png"
@@ -61,29 +61,31 @@
       </div>
     </header>
     <main>
-      <section class="plancy">
-        <h2 class="title-2 plancy__title">
+      <section class="plancy section">
+        <h2 class="title-2 plancy__title mb-64">
           Over 12 million people rely on
           <span class="highlight">plancy</span> app
         </h2>
 
-        <div class="cards plancy__cards">
-          <p class="cards__item">
+        <div class="cards d-flex space-between plancy__cards">
+          <p class="text-base cards__item">
             We have a powerful iPhone calendar app on our hands here – meetings,
             locations, notes, tasks…everything under one roof.
           </p>
-          <p class="cards__item">
+          <p class="text-base cards__item">
             When it comes to combining both tasks lists and calendar events into
             one, the Plancy app currently does it best.
           </p>
-          <p class="cards__item">
-            Plancy gets close to being my ideal iPhone calendar app for the
-            current state of calendar and reminders clients.
-          </p>
+          <div class="cards__item-last-wrapper">
+            <p class="text-base cards__item">
+              Plancy gets close to being my ideal iPhone calendar app for the
+              current state of calendar and reminders clients.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="features">
+      <section class="features section">
         <h2 class="title-2 features__title">
           Features you'll <span class="highlight">Love</span>
         </h2>
@@ -93,7 +95,7 @@
         </div>
       </section>
 
-      <footer class="footer">
+      <footer class="footer section">
         <p class="text-small">Copyright © 2007 - 2023 Readdle Limited.</p>
 
         <p class="text-small">

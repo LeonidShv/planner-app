@@ -2,6 +2,7 @@
 @import './_reset.css';
 @import './_atomic.css';
 @import './_header.css';
+@import './_plancy.css';
 
 body {
   background: var(--black);
