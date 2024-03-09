@@ -1,9 +1,11 @@
+const headerNav = document.querySelector('.nav');
 window.addEventListener('scroll', function () {
-  var headerNav = document.querySelector('.nav')
-  if (window.scrollY > 0) {
-    headerNav.classList.add('scroll-active')
-  } else {
-    headerNav.classList.remove('scroll-active')
+  const isNavActive = headerNav.classList.contains('scroll-active');
+
+  if (window.scrollY > 0 && !isNavActive) {
+    headerNav.classList.add('scroll-active');
+  } else if (window.scrollY === 0 && isNavActive) {
+    headerNav.classList.remove('scroll-active');
   }
 })
 

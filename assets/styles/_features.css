@@ -23,23 +23,23 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 32px!important;
-  height: 32px!important;
+  width: 32px !important;
+  height: 32px !important;
 }
 
 .swiper-button-prev {
-  background: url(../icons/left.svg) center no-repeat var(--dark)!important;
+  background: url(../icons/left.svg) center no-repeat var(--dark) !important;
   left: -104px !important;
 }
 
 .swiper-button-next {
-  background: url(../icons/right.svg) center no-repeat var(--dark)!important;
+  background: url(../icons/right.svg) center no-repeat var(--dark) !important;
   right: -104px !important;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next:after {
-  content: ""!important;
+  content: '' !important;
 }
 
 .swiper-wrapper {

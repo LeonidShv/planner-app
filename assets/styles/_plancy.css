@@ -12,7 +12,7 @@
 }
 
 .cards__item::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 21px;
