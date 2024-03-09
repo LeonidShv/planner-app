@@ -147,6 +147,10 @@
   .nav__burger-btn {
     left: 64px;
   }
+
+  .header__input-wrapper {
+   margin-bottom: 16px;
+  }
 }
 
 @media (max-width: 500px) {

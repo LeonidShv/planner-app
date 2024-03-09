@@ -56,7 +56,7 @@
 
 @media (max-width: 768px) {
   .modal {
-    width: auto;
+    width: 280px;
   }
 }
 

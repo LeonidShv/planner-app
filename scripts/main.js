@@ -19,6 +19,7 @@ const inputEmail = document.querySelector('.header__input')
 inputEmail.addEventListener('input', function () {
   if (inputEmail.classList.contains('error')) {
     inputEmail.classList.remove('error')
+    document.querySelector('.error-text').remove()
   }
 })
 
@@ -28,6 +29,7 @@ document.querySelector('.header__button').addEventListener('click', async functi
 
   if (!emailRegex.test(email)) {
     inputEmail.classList.toggle('error')
+    document.querySelector('.header__input').insertAdjacentHTML('afterend', '<p class="error-text">Footnote</p>');
     return false
   }
 
