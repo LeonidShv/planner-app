@@ -1,0 +1,190 @@
+h1,
+h2 {
+  font-weight: 700;
+  color: var(--white);
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.text-base {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--light-grey);
+}
+
+.text-small {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--dark-grey);
+}
+
+.highlight {
+  color: var(--purple);
+}
+
+/* input {
+
+} */
+
+button {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.link {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--light-grey);
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--white);
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .text-base {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+    line-height: 77px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .text-base {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.button {
+  padding: 10px 25px;
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--dark-purple);
+}
+
+.button:focus {
+  outline: 3px solid #7b61ff;
+}
+
+.button[disabled] {
+  background: var(--light-black);
+  color: var(--light);
+}
+
+.input {
+  padding: 10px 12px;
+  background: 0;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid var(--grey);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.input:placeholder {
+  color: var(--grey);
+}
+
+.input:focus {
+  border-color: var(--white);
+}
+
+.input::after {
+  content: 'sadsad';
+  color: red;
+  display: block;
+  width: 50px;
+  height: 20px;
+}
+
+.input[disabled] {
+  color: var(--dark-grey);
+  border-bottom: 1px solid var(--dark-grey);
+}
+
+.input[disabled]:placeholder {
+  color: var(--dark-grey);
+}
+
+.input.error {
+  color: var(--error);
+  border-bottom: 1px solid var(--error);
+}

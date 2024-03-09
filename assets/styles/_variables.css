@@ -1,9 +1,13 @@
 :root {
-    --white: #fff;
-    --purple: #BB61F2;
-    --black: #111;
-    --dark: #1A1A1A;
-    --dark-grey: rgba(255, 255, 255, 0.25);
-    --light-grey: rgba(255, 255, 255, .8);
-    --grey: rgba(255, 255, 255, 0.6);
+  --white: #fff;
+  --purple: rgba(146, 108, 255, 1);
+  --dark-purple: rgba(112, 81, 201, 1);
+  --black: #111;
+  --light-black: #262626;
+  --dark: #1a1a1a;
+  --dark-grey: rgba(255, 255, 255, 0.25);
+  --light-grey: rgba(255, 255, 255, 0.8);
+  --grey: rgba(255, 255, 255, 0.6);
+  --light: rgba(255, 255, 255, 0.1);
+  --error: rgba(250, 70, 85, 1);
 }
